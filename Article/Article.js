@@ -114,6 +114,10 @@ const data = [{
 const article = document.querySelector('.articles');
 
 const h2 = document.createElement('h2');
+const pDate = document.createElement('p');
+
 h2.textContent = 'Title of the article';
+pDate.textContent = 'March 19, 2020';
 
 article.appendChild(h2);
+article.appendChild(pDate);
