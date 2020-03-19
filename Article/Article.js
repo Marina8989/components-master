@@ -115,9 +115,18 @@ const article = document.querySelector('.articles');
 
 const h2 = document.createElement('h2');
 const pDate = document.createElement('p');
+const pOne = document.createElement('p');
+const pTwo = document.createElement('p');
+const pThree = document.createElement('p');
 
 h2.textContent = 'Title of the article';
 pDate.textContent = 'March 19, 2020';
+pOne.textContent = 'First Paragraph';
+pTwo.textContent = 'Second Paragraph';
+pThree.textContent = 'Third Paragraph';
 
 article.appendChild(h2);
 article.appendChild(pDate);
+article.appendChild(pOne);
+article.appendChild(pTwo);
+article.appendChild(pThree);
