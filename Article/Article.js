@@ -129,6 +129,10 @@ pThree.textContent = 'Third Paragraph';
 span.textContent = 'Button';
 span.className = 'expandButton';
 
+span.addEventListener('click', () => {
+    span.classList.toggle('article-open');
+});
+
 
 article.appendChild(h2);
 article.appendChild(pDate);
@@ -136,9 +140,3 @@ article.appendChild(pOne);
 article.appendChild(pTwo);
 article.appendChild(pThree);
 article.appendChild(span);
-
-
-
-span.addEventListener('click', () => {
-    span.classList.toggle('article-open');
-});
